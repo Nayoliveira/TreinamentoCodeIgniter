@@ -58,17 +58,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		margin: 20px 0 0 0;
 	}
 
-	#container {
+	/*#container {
 		margin: 10px;
 		border: 1px solid #D0D0D0;
 		box-shadow: 0 0 8px #D0D0D0;
-	}
+	}*/
 	</style>
 </head>
 <body>
+	<div class="container">
+		<header> 
+			Home 
+		</header>
+	</div>
 
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+	<h1>Treinamento CodeIgniter SolarView</h1>
 
 	<div id="body">
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
